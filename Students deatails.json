@@ -1,0 +1,30 @@
+{
+    "Students deatails": [
+        {
+            "PinNumber": "10",
+            "Name": "Teja",
+            "Date of Birth": "01-04-2001",
+            "Age": "26",
+            "Branch": " Mechanical",
+            "Year": "4th year",
+            "Semister": "2nd",
+            "Number": "9550840453",
+            "Alternative Mobile Number": "6281245810",
+            "Email ID": "tejabhutesh@gmail.com",
+            "Address": "NKP,MADAKASIRA,INDIA"
+        },
+        {
+            "PinNumber": "22",
+            "Name": "Ram",
+            "Date of Birth": "01-04-2001",
+            "Age": "26",
+            "Branch": " Mechanical",
+            "Year": "4th year",
+            "Semister": "2nd",
+            "Number": "9550840453",
+            "Alternative Mobile Number": "6281245810",
+            "Email ID": "tejabhutesh@gmail.com",
+            "Address": "NKP,MADAKASIRA,INDIA"
+        }
+    ]
+}
