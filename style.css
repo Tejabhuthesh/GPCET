@@ -1,0 +1,26 @@
+/* Enter your custom styles here */
+.sapMITBFilterIcon {
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    -moz-border-radius: 3rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 1.5rem;
+    height:4rem ;
+    width:25rem ;
+    line-height: 2.5rem;
+    overflow: hidden;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    border: 1px solid #a00808;
+}
+.sapMITBItem.sapMITBAll {
+    position: relative;
+}
+
+
+
