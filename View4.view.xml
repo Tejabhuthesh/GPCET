@@ -1,0 +1,59 @@
+<mvc:View xmlns:tnt="sap.tnt" controllerName="idapp.project1.controller.View4" xmlns:f="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="View4" showNavButton="true" navButtonPress="onNavBack">
+        <content>
+            <IconTabBar id="idIconTabBarMulti" class="sapUiResponsiveContentPadding">
+                <items>
+                   <!--> <IconTabFilter icon="https://digitalcampus.msmfclasses.com:90/images/digitalcampus.svg" key="student">
+                        <Text text="Digital Campus" />
+                    </IconTabFilter>
+                      <IconTabSeparator icon="" />-->
+                    <IconTabFilter icon="https://digitalcampus.msmfclasses.com:90/images/Photo_not_available.jpg" key="student" >
+                        <Text text="Welcome!" />
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
+
+           <!--> <IconTabHeader mode="Inline">
+                <items>
+                    <IconTabFilter key="info" text="Info" />
+                    <IconTabFilter key="attendence" text="Attendance" count="82%" />
+                    <IconTabFilter key="score" text="Score" count="7.8CGPA" />
+                    <IconTabFilter key="backlogs" text="Backlogs" count="0" />
+                    <IconTabFilter key="due" text="Due" count="10,000" />
+                    <IconTabFilter key="assignment" text="Assignment" count="2" />
+                    <IconTabFilter key="labs" text="Labs" count="3" />
+                </items>
+            </IconTabHeader>-->
+             <f:SimpleForm editable="true"  layout="ResponsiveGridLayout"  >
+               <f:content>
+            
+                    <Label text="PinNumber" />
+                    <Text text="{= ${Data2>/0/PinNumber} > 33 ? 'Success' : 'Error' }" />
+                    <Label text="Name" />
+                    <Text text="{Data2>/0/Name}"  />
+                    <Label text="Date of Birth" />
+                    <Text text="{Data2>/0/Date of Birth}" />
+                    <Label text="Age" />
+                    <Text text="{Data2>/0/Age}" />
+                    <Label text="Branch" />
+                    <Text text="{Data2>/0/Branch}" />
+                    <Label text="Year" />
+                    <Text text="{Data2>/0/Year}" />
+                    <Label text="Semister" />
+                    <Text text="{Data2>/0/Semister}" />
+                    <Label text="Number" />
+                    <Text text="{Data2>/0/Number}" />
+                    <Label text="Alternative Mobile Number" />
+                    <Text text="{Data2>/0/Alternative Mobile Number}" />
+                    <Label text="Email ID" />
+                    <Text text="{Data2>/0/Email ID}" />
+                    <Label text="Address" />
+                    <Text text="{Data2>/0/Address}" />
+                </f:content>
+            </f:SimpleForm>
+        </content>
+        <headerContent>
+            <Button text="Logout" icon="sap-icon://action" press="onSubmit" />
+        </headerContent>
+    </Page>
+</mvc:View>

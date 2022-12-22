@@ -1,0 +1,31 @@
+<mvc:View xmlns:tnt="sap.tnt" controllerName="idapp.project1.controller.View2" xmlns:f="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="View2" showNavButton="true" navButtonPress="onNavBack">
+        <content>
+            <IconTabBar id="idIconTabBar">
+                <items>
+                    <IconTabFilter icon="https://digitalcampus.msmfclasses.com:90/images/digitalcampus.svg" key="student">
+                        <Text text="Digital Campus" />
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
+            <f:SimpleForm editable="true" layout="ResponsiveGridLayout" emptySpanL="8" emptySpanM="8" title="Student Login Portal">
+                <f:content>
+                    
+                        <Label text="PinNumber" />
+
+                        <Input id="pin" placeholder="Enter PinNumber" />
+
+                        <Label text="Name" />
+
+                        <Input id="fname" placeholder="Enter FullName" />
+                    
+                </f:content>
+            </f:SimpleForm>
+            <!-- <headerContent>
+                <Button text="Display" type="Emphasized" press="submit" />
+            </headerContent> -->
+
+            <Button text="Submit" press="submit" type="Emphasized" class="sapUiSmallMargin" />
+        </content>
+    </Page>
+</mvc:View>

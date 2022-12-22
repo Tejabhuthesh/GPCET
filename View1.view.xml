@@ -1,0 +1,78 @@
+<mvc:View controllerName="idapp.project1.controller.View1" xmlns:f="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout">
+    <Page id="page" title="View1">
+        <content>
+            <Text text="{i18n>appTitle}" />
+            <!--<FlexBox
+                alignItems="Center"
+                     justifyContent="Center" >-->
+            <IconTabBar id="idIconTabBarMulti" class="sapUiResponsiveContentPadding">
+                <items>
+                    <IconTabFilter icon="https://letusstudy.in/storage/colleges/gallery/9935/14873/080120220622.jpg" key="college" class="sapMITBFilterIcon">
+                        <Text text="HOME" />
+                    </IconTabFilter>
+
+                    <!--<IconTabFilter icon="http://www.gpcet.ac.in/wp-content/uploads/2022/12/RCEW-Logo-280-%C3%97-110-px.png" key="collegename">
+                            <Text text="GPCET" />
+                        </IconTabFilter>-->
+                </items>
+            </IconTabBar>
+            <!--</FlexBox>-->
+
+            <IconTabBar class="sapUiResponsiveContentPadding">
+                <items>
+                   
+
+                    <IconTabFilter key="aboutus" text="About Us">
+                        <Text text="{i18n>aboutus}" />
+                    </IconTabFilter>
+
+                    <IconTabFilter key="departments" text="Departments">
+                        <Text text="{i18n>departments}" />
+                    </IconTabFilter>
+
+                    <IconTabFilter key="placements" text="Placements">
+                        <Text text="{i18n>placements}" />
+                    </IconTabFilter>
+
+                    <IconTabFilter key="campuslife" text="Campus Life">
+                        <Text text="{i18n>campuslife}" />
+                    </IconTabFilter>
+
+                    <IconTabFilter key="feeStructure" text="Fee Structure">
+                        <Text text="{i18n>feeStructure}" />
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
+
+            <!--<headerContent>
+            <Button text="Display" type="Emphasized" press="submit" />
+        </headerContent>-->
+
+            <HBox alignContent="Center" direction="Row">
+                <items>
+                    <f:SimpleForm title="Student Login Portal">
+                        <Button text="Log In" press="onPress" type="Emphasized" width="200px" class="sapUiSmallMargin" />
+                        <Button text="Register" press="onClick" type="Emphasized" width="200px" class="sapUiSmallMargin" />
+                    </f:SimpleForm>
+                </items>
+            </HBox>
+            <!-->	<Toolbar>
+				
+				<Button text="Accept" type="Accept">
+					<layoutData>
+							<ToolbarLayoutData shrinkable="true" />
+					</layoutData>
+				</Button>
+                </Toolbar>
+               
+
+               <l:BlockLayout id="blockLayout">
+                    <l:BlockLayoutRow>
+                        <l:BlockLayoutCell title="An Icon (Shade B)" backgroundColorSet="{/colorSet}" backgroundColorShade="ShadeB">
+                            <core:Icon src="sap-icon://add-activity" />
+                        </l:BlockLayoutCell>
+                    </l:BlockLayoutRow>
+                </l:BlockLayout>-->
+        </content>
+    </Page>
+</mvc:View>
